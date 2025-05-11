@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { i } from "motion/react-client";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import home from "../assets/home.jpg";
 
 export default function Home() {
   
@@ -38,7 +38,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.2 }}
-            src="../src/assets/home.jpg"
+            src= {home}
             alt="Interior Design"
             className="rounded-2xl shadow-lg lg:w-1/2 w-full"
           />

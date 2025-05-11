@@ -1,47 +1,57 @@
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import sittingroom from "../assets/sittingroom.jpg";
+import bedroom from "../assets/bedroom.jpg";
+import kitchen from "../assets/kitchen.jpg";
+import office from "../assets/office.jpg";
+import dining from "../assets/dining.jpg";
+import hallway from "../assets/hallway.jpg";
+import bathroom from "../assets/bathroom.jpg";
+import library from "../assets/library.jpg";
+import stairs from "../assets/stairs.jpg";
+import patio from "../assets/patio.jpg";
 
 export default function Gallery() {
   const galleryItems = [
     {
-      src: "../src/assets/sittingroom.jpg",
+      src: sittingroom,
       desc: "Modern luxury living room with golden accents."
     },
     {
-      src: "../src/assets/bedroom.jpg",
+      src: bedroom,
       desc: "Sophisticated bedroom setup with velvet textures."
     },
     {
-      src: "../src/assets/kitchen.jpg",
+      src: kitchen,
       desc: "Minimalist kitchen with marble countertops."
     },
     {
-      src: "../src/assets/office.jpg",
+      src: office,
       desc: "Artistic home office with warm lighting."
     },
     {
-      src: "../src/assets/dining.jpg",
+      src: dining,
       desc: "Elegant dining room with crystal chandelier."
     },
     {
-      src: "../src/assets/hallway.jpg",
+      src: hallway,
       desc: "Stylish hallway with custom wood paneling."
     },
     {
-      src: "../src/assets/bathroom.jpg",
+      src: bathroom,
       desc: "Sleek bathroom design with matte finishes."
     },
     {
-      src: "../src/assets/library.jpg",
+      src: library,
       desc: "Contemporary library with built-in shelves."
     },
     {
-      src: "../src/assets/stairs.jpg",
+      src: stairs,
       desc: "Luxe staircase with custom railings."
     },
     {
-      src: "../src/assets/patio.jpg",
+      src: patio,
       desc: "Relaxing patio with cozy outdoor seating."
     },
   ];
